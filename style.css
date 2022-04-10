@@ -1,0 +1,138 @@
+@import url("./fontawesome/css/font-awesome.css");
+@font-face {
+  font-family: Poppins;
+  src: url("./police/Poppins-Regular.ttf");
+}
+
+* {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  outline: 0;
+}
+
+.root {
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background: #202020;
+  overflow: hidden;
+}
+
+.navbar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  border-bottom: 2px solid #d6267a;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.logo a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.logo {
+  margin-left: 10px;
+}
+.nav {
+  margin: 6px;
+  margin-left: 30px;
+}
+
+.nav a {
+  color: #fff;
+  padding: 20px;
+  padding-top: 100%;
+  padding-bottom: 100%;
+  transition-duration: 0.7s;
+}
+.nav a:hover {
+  background-color: #d6267a;
+}
+.nav .selected {
+  background: #d6267a !important;
+}
+.scl {
+  position: absolute;
+  right: 17px;
+  margin: 7px;
+}
+
+.scl a {
+  color: #fff;
+  margin: 1px;
+}
+
+.scl a i {
+  font-size: 20px;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.img {
+  border-radius: 50%;
+  border: 3px solid #d6267a;
+  width: 300px;
+  height: 300px;
+  transition-duration: 1s;
+}
+
+.imgSection {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img:hover {
+  border: 7px solid rgb(12, 12, 12);
+}
+.main {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+}
+.descriptionSection {
+}
+.descriptionSection p {
+  color: #fff;
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main aside {
+  margin: 16px;
+}
+
+.main aside button {
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.123);
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.main aside button:hover {
+  background: rgba(255, 255, 255, 0.37);
+}
